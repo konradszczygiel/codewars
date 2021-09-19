@@ -1,8 +1,10 @@
 import math
 def cockroach_speed(s):
-    x = 5 * 27,78
+    x = s * 27.22
+
     print(x)
-    b = math.floor(float(x))
-    return float(b)
+    b = math.floor(x)
+    print(b)
+    return b
 
 cockroach_speed(2)
